@@ -16,6 +16,10 @@
     --gray:#828282;
 }
 
+.container{
+    height: 80%;
+
+}
 .header{
     background-color: var(--primary);
     height: 250px;
@@ -44,9 +48,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 10px;
-    height: 400px;
+    
 }
 
 .section-email h3{
