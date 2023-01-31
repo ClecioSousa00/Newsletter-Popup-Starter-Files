@@ -13,6 +13,7 @@
 
 :root{
     --primary:#2355F2;
+    --gray:#828282;
 }
 
 .header{
@@ -35,4 +36,82 @@
     font-weight: 800;
     font-size: 1.5rem;
     max-width: 60%;
+}
+
+/* ------------- */
+
+.section-email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: pink;
+}
+
+.section-email h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 20px;
+}
+.formulario{
+    margin-bottom: 30px;
+}
+.formulario form{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.input-email{
+    width: 250px;
+    height: 45px;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.btn-submit{
+    width: 115px;
+    height: 45px;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.formulario span{
+    font-size: 1rem;
+    color: var(--gray);
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/* --------- */
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.user-name span{
+    color: var(--gray);
+    font-size: 12px;
+}
+
+.user-comment{
+    text-align: center;
+    color: var(--gray);
+    font-size: 14px;
 }
