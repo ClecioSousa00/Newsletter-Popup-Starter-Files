@@ -1,0 +1,44 @@
+
+
+/* typical device breakpoints 
+
+    small screens: max-width: 600px
+    phone: max-width: 600px - 768px
+    tablet: max-width: 768px - 992px
+    desktop: max-width: 992px - 1024px
+    extra large screens: above 1024px
+*/
+
+@media screen and (min-width: 768px) {
+    
+    .background{
+       background-image: url(../img/Background.png);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .container{
+        width: 400px;
+        background-color: white;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .header{
+        height: 150px;
+    }
+
+    .section-email{
+        margin-top: 5%;
+    }
+    .btn-submit:hover{
+       opacity: 0.9;
+        cursor: pointer;
+    }
+
+    .description{
+        margin-top: 5%;
+    }
+}
